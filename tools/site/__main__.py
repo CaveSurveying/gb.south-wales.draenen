@@ -25,7 +25,7 @@ import sys
 from tools.model3d.__main__ import build as build_3d
 
 OUT = 'site'
-REPO = 'https://github.com/richsmith/draenen'
+REPO = 'https://github.com/CaveSurveying/uk_south-wales_draenen'
 OUCC = 'https://www.oucc.org.uk/surveys/surveys%20and%20data%20-%20draenen/survex/draenen_survex_data.htm'
 DATA = [
     ('draenen-plan.pdf', 'The plan', 'The survey at 1:5000, drawn in Therion and coloured by altitude: the centreline, the drawn passages, the passage names and the entrances, with the length, depth and credits.'),

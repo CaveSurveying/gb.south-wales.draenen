@@ -1,8 +1,8 @@
 # Ogof Draenen
 
-[![Ogof Draenen in 3D beneath the ground at Pwll Du, coloured by altitude, with the passages named. Click to open the 3D view and route planner.](images/preview.jpg)](https://paperclipmonkey.github.io/draenen/)
+[![Ogof Draenen in 3D beneath the ground at Pwll Du, coloured by altitude, with the passages named. Click to open the 3D view and route planner.](images/preview.jpg)](https://cavesurveying.github.io/uk_south-wales_draenen/)
 
-## **[Open the 3D view and route planner →](https://paperclipmonkey.github.io/draenen/)**
+## **[Open the 3D view and route planner →](https://cavesurveying.github.io/uk_south-wales_draenen/)**
 
 The survey of **Ogof Draenen**, under the hill at Pwll Du near Blaenavon,
 South Wales, in [Therion](https://therion.speleo.sk/): Oxford University
@@ -11,13 +11,13 @@ and their drawings. Every push builds it; `main` publishes:
 
 | | |
 |---|---|
-| **[The site](https://paperclipmonkey.github.io/draenen/)** | The cave in 3D beneath the Welsh Government's LiDAR ground and satellite imagery, with a route planner: turn-by-turn routes between any two places, offline on a phone underground, and in AR. |
-| **[The plan](https://paperclipmonkey.github.io/draenen/data/draenen-plan.pdf)** (`draenen-plan.pdf`) | The plan at 1:5000, coloured by altitude, with the passage names, the entrances, the length and depth, and the credits. |
-| **[The survey](https://paperclipmonkey.github.io/draenen/data/draenen.3d)** (`draenen.3d`) | The whole cave as a Survex 3D file, for Aven. |
+| **[The site](https://cavesurveying.github.io/uk_south-wales_draenen/)** | The cave in 3D beneath the Welsh Government's LiDAR ground and satellite imagery, with a route planner: turn-by-turn routes between any two places, offline on a phone underground, and in AR. |
+| **[The plan](https://cavesurveying.github.io/uk_south-wales_draenen/data/draenen-plan.pdf)** (`draenen-plan.pdf`) | The plan at 1:5000, coloured by altitude, with the passage names, the entrances, the length and depth, and the credits. |
+| **[The survey](https://cavesurveying.github.io/uk_south-wales_draenen/data/draenen.3d)** (`draenen.3d`) | The whole cave as a Survex 3D file, for Aven. |
 
 All three are on the site, which links them together: the landing page
 has the downloads beside the 3D view, and the 3D view links them too.
-The plan and the `.3d` are also in the [latest release](https://github.com/richsmith/draenen/releases/tag/latest).
+The plan and the `.3d` are also in the [latest release](https://github.com/CaveSurveying/uk_south-wales_draenen/releases/tag/latest).
 
 | | |
 |---|---|
@@ -26,11 +26,11 @@ The plan and the `.3d` are also in the [latest release](https://github.com/richs
 
 ## The route planner
 
-[![A step of the route from the entrance to Big Country: the way on in blue, the way not to take in red, and the junction from above on the step card.](images/route.jpg)](https://paperclipmonkey.github.io/draenen/3d/#from=Entrance&to=Big%20Country&step=6)
+[![A step of the route from the entrance to Big Country: the way on in blue, the way not to take in red, and the junction from above on the step card.](images/route.jpg)](https://cavesurveying.github.io/uk_south-wales_draenen/3d/#from=Entrance&to=Big%20Country&step=6)
 
 **Routes**, under the title, finds the shortest way through the survey
 between any two named places, with [ready-made routes from both
-entrances](https://paperclipmonkey.github.io/draenen/) on the landing page
+entrances](https://cavesurveying.github.io/uk_south-wales_draenen/) on the landing page
 (from Tarddiad Pwll Du to the places in the north it's the shorter way to):
 
 - **The whole route** first: its length, climbs and drops, a height
@@ -42,7 +42,7 @@ entrances](https://paperclipmonkey.github.io/draenen/) on the landing page
 - **I'm somewhere else:** tap the passage you're in and it routes again
   from there.
 - **Print** the route as a card; **share** it, as the address keeps the
-  route and the step ([Entrance to Big Country](https://paperclipmonkey.github.io/draenen/3d/#from=Entrance&to=Big%20Country)).
+  route and the step ([Entrance to Big Country](https://cavesurveying.github.io/uk_south-wales_draenen/3d/#from=Entrance&to=Big%20Country)).
 - **Underground:** open it once with a signal and it works offline. It
   only draws when something changes, to save battery, and the compass can
   turn the survey as you turn.
@@ -62,7 +62,7 @@ entrances](https://paperclipmonkey.github.io/draenen/) on the landing page
 
 ## The plan
 
-[![Part of the plan: the passages coloured by altitude, from purple (high) to green (low), with their names.](images/plan.jpg)](https://paperclipmonkey.github.io/draenen/data/draenen-plan.pdf)
+[![Part of the plan: the passages coloured by altitude, from purple (high) to green (low), with their names.](images/plan.jpg)](https://cavesurveying.github.io/uk_south-wales_draenen/data/draenen-plan.pdf)
 
 The plan is coloured by altitude, with a key in the header, so passages
 crossing each other stand apart (the higher on top). Therion colours
