@@ -238,7 +238,7 @@ def page(scene, rts, preview):
   <li><b>Survey:</b> Ogof Draenen survey data, Oxford University Cave Club and the many clubs and cavers who surveyed the cave (named in the survey files), <a href="{OUCC}">oucc.org.uk</a>; newer surveys by the teams named in them; compiled in Therion by Rich Smith, <a href="{REPO}">{REPO.split('github.com/')[1]}</a>.</li>
   <li><b>Ground:</b> Welsh Government LiDAR 2020&ndash;22, &copy; Welsh Government, <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3</a>.</li>
   <li><b>Imagery:</b> &copy; Esri, Maxar, Earthstar Geographics and the GIS User Community.</li>
-  <li><b>Software:</b> <a href="https://threejs.org/">three.js</a> (MIT) and the <a href="https://rsms.me/inter/">Inter</a> font (SIL Open Font Licence). The 3D view started as the one made for the <a href="https://github.com/CaveSurveying/uk_mendips_swildons-hole">Swildons Hole survey</a>.</li>
+  <li><b>Software:</b> <a href="https://threejs.org/">three.js</a> (MIT) and the <a href="https://rsms.me/inter/">Inter</a> font (SIL Open Font Licence). The 3D view started as the one made for the <a href="https://github.com/CaveSurveying/gb.mendips.swildons-hole">Swildons Hole survey</a>.</li>
 </ul>
 <footer>Built {e(scene['built'])} from <a href="{REPO}">{REPO.split('github.com/')[1]}</a>.</footer>
 </div>
