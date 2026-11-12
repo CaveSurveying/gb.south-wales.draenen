@@ -23,8 +23,10 @@ import shutil
 import sys
 
 from tools.model3d.__main__ import build as build_3d
+from tools.site.markdown import to_html
 
 OUT = 'site'
+ABOUT = 'about.md'      # what the survey is, and isn't: a section of the landing page
 REPO = 'https://github.com/CaveSurveying/gb.south-wales.draenen'
 OUCC = 'https://www.oucc.org.uk/surveys/surveys%20and%20data%20-%20draenen/survex/draenen_survex_data.htm'
 DATA = [
@@ -184,6 +186,10 @@ def page(scene, rts, preview):
   a {{ color:var(--accent); }}
   .credits {{ color:var(--muted); font-size:14px; }}
   .credits li {{ margin:4px 0; }}
+  .notice {{ margin:0 0 24px; padding:10px 14px; border-left:3px solid var(--gold); background:rgba(176,122,20,.1); border-radius:4px; }}
+  .about {{ max-width:760px; }}
+  .about h3 {{ font-size:18px; font-weight:600; margin:24px 0 6px; }}
+  .about li {{ margin:4px 0; }}
   .warn {{ border-left:3px solid var(--gold); padding:4px 0 4px 14px; color:var(--muted); font-size:15px; }}
   footer {{ margin-top:56px; padding-top:18px; border-top:1px solid var(--line); color:var(--muted); font-size:13px; }}
   @media (max-width:640px) {{ h1 {{ font-size:32px; }} .wrap {{ padding:28px 16px 60px; }} }}
@@ -202,6 +208,7 @@ def page(scene, rts, preview):
   <div><dt>Survey data</dt><dd>OUCC Grade 2 and newer</dd></div>
   <div><dt>Built</dt><dd>{e(scene['built'])}</dd></div>
 </dl>
+<p class="notice">This survey has about {km(st['length'])} of a cave well over 70 km long: some of Ogof Draenen isn&rsquo;t here, and most of what is, is a coarse Grade 2 centreline. <a href="#about">About the survey</a>.</p>
 
 {hero}
 <a class="open" href="3d/">Open the 3D view and route planner &rarr;</a>
@@ -210,6 +217,9 @@ def page(scene, rts, preview):
 
 {sections}
 <p class="sub" style="margin-top:14px">Or pick any two places in the 3D view: <b>Routes</b>, under the title.</p>
+
+<h2 id="about">About the survey</h2>
+<div class="about">{to_html(open(ABOUT, encoding='utf-8').read(), top=3)}</div>
 
 <h2>Using it</h2>
 <div class="feat">
