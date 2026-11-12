@@ -92,7 +92,7 @@ Chrome binary for the site's preview image.
 
 CI ([`.github/workflows/build.yml`](.github/workflows/build.yml)) runs
 Therion 6.4.0 from a container, `ghcr.io/paperclipmonkey/therion:6.4.0`, as
-the [Swildons Hole survey](https://github.com/CaveSurveying/uk_mendips_swildons-hole)
+the [Swildons Hole survey](https://github.com/CaveSurveying/gb.mendips.swildons-hole)
 does (Ubuntu's package, 6.2.0, crashes on the plan). The site goes to
 GitHub Pages from `main` (Settings → Pages → Source: GitHub Actions).
 
@@ -136,6 +136,6 @@ north.
   [Open Government Licence v3](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
 - **Imagery:** © Esri, Maxar, Earthstar Geographics and the GIS User Community.
 - **Software:** the tools are GPL-3.0 ([`tools/LICENSE`](tools/LICENSE)); the 3D
-  view started as the one made for the [Swildons Hole survey](https://github.com/CaveSurveying/uk_mendips_swildons-hole),
+  view started as the one made for the [Swildons Hole survey](https://github.com/CaveSurveying/gb.mendips.swildons-hole),
   with [three.js](https://threejs.org/) (MIT) and the [Inter](https://rsms.me/inter/)
   font (SIL Open Font Licence).
