@@ -1,3 +1,2 @@
-# The 3D view is built by cave-viewer, pinned to main after CaveSurveying/cave-viewer#16
-# (route stops, dragging the route, round trips and route links), which no release has yet
-cave-viewer @ git+https://github.com/CaveSurveying/cave-viewer@e675b6a229418253c104a66454fb0e9c19697f2f
+# The 3D view is built by cave-viewer, pinned to a release
+cave-viewer @ git+https://github.com/CaveSurveying/cave-viewer@v0.7.0
